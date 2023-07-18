@@ -5,6 +5,7 @@ class Calculator:
 
     def division(self, a, b):
         try:
+            print('hello world')
             return a / b
         except ZeroDivisionError:
             return 'На ноль делить нельзя '
