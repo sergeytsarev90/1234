@@ -13,3 +13,4 @@ class Calculator:
             print('Не корректные данные')
         except TypeError as e:
             return e
+return e
