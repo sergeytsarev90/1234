@@ -10,6 +10,6 @@ class Calculator:
         except ZeroDivisionError:
             return 'На ноль делить нельзя '
         except ValueError:
-            print('Не корректные данные')
+            print('Не')
         except TypeError as e:
             return e
