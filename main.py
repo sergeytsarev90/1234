@@ -5,11 +5,11 @@ class Calculator:
 
     def division(self, a, b):
         try:
-            print('Привет мир')
+            print('guten morgan')
             return a / b
         except ZeroDivisionError:
-            return 'На ноль делить нельзя совсем'
+            return 'На ноль не делится '
         except ValueError:
-            print('Не')
+            print('No')
         except TypeError as e:
             return e
